@@ -1,0 +1,21 @@
+body{
+    text-align:center;
+    font: sans-serif;
+    background-color:rgb(255, 224, 246);
+    color:rgb(0, 0, 0);
+}
+
+#roll{
+    padding:10px 60px;
+    font-size:2em;
+    background-color: black;
+    color:white;
+    border: 2px white;
+    border-radius: 20px;
+}
+
+.result{
+    font-size:30px;
+    margin-bottom: 10px;
+    padding-bottom:2px;
+}

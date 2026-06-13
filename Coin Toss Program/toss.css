@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(159, 221, 255);
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h1{
+    font-size:50px;
+}
+
+label{
+    font-size:30px;
+}
+#total_coins{
+    font-size:20px;
+    padding:5px;
+    margin:10px;
+    width:100px;
+}
+
+button{
+    font-size: 30px;
+    padding: 5px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(245, 255, 189);
+}
+
+#result{
+    font-size:30px;
+    margin-top:5px;
+    font-weight: bold;
+}
+
+#coinImages{
+    display:flex;
+    width:200px;
+    height:200px;
+    margin:auto;
+    padding-top:10px;
+    justify-content: center;
+}

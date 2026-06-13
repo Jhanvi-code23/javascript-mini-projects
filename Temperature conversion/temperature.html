@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Temperature Conversion</title>
+        <link rel="stylesheet" href="temperature.css">
+    </head>
+        <body>
+            <h1>TEMPERATURE CONVERTOR</h1>
+
+            <form>
+                <input type="number" id="textbox" value="0"><br>
+                <input type="radio" id="toFarenheight" name="unit">
+                <label for="toFarenheight">Celcius ➡️ Farenheight</label><br>
+                <input type="radio" id="toCelcius" name="unit">
+                <label for="toCelcius">Farenheight ➡️ Celcius </label><br><br>
+
+                <button type="button" onclick="convert()">Submit</button>
+                <p id="result"></p>
+            </form>
+                <script src="temperature.js"></script>
+        </body>
+
+</html>

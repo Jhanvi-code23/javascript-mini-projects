@@ -1,0 +1,47 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+    background-color: black;
+    color:white;
+}
+
+#count{
+    font-size:6em;
+    margin:20px;
+    color:white;
+}
+
+#buttons{
+    margin-top:20px;
+}
+
+#decrease, #reset, #increase{
+    font-size:2em;
+    padding:10px 40px;
+    margin: 0 20px;
+    cursor:pointer;
+}
+
+#decrease{
+    background-color: rgb(255, 100, 100);
+    border: 2px solid white;
+}
+#decrease:hover{
+    background-color:rgb(229, 59, 59);
+}
+
+#reset{
+    background-color:rgb(97, 97, 251);
+    border: 2px solid white;
+}
+#reset:hover{
+    background-color:rgb(61, 61, 229);
+}
+
+#increase{
+    background-color:rgb(70, 210, 70);
+    border: 2px solid white;
+}
+#increase:hover{
+    background-color:rgb(34, 178, 34);
+}
